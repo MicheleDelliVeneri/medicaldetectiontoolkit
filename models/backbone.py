@@ -179,7 +179,6 @@ class FPN(nn.Module):
         return out_list
 
 
-
 class ResBlock(nn.Module):
 
     def __init__(self, start_filts, planes, conv, stride=1, downsample=None, norm=None, relu='relu'):
